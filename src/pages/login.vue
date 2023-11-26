@@ -18,8 +18,7 @@ const onLogin = () => {
 <template>
     <div>
        <h1>Login Page</h1>
-       <div class="flex flex-col gap-2">
-           
+       <div class="flex flex-col gap-2">          
             <input type="text" v-model="username" class="border p-2" placeholder="tulis username"/>
             <input type="number" v-model="password" class="border p-2" placeholder="tulis pass angka"/>
             <button @click="onLogin()" class="bg-green-700 text-white py-2 px-4">Login</button>
